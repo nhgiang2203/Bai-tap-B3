@@ -1,0 +1,152 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.box-chat {
+    width: 280px;
+    border: 1px solid #ddd;
+    border-radius: 8%;
+}
+
+.box-chat .box-head {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.box-chat .box-head .avt {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background-color: #fe5da3;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 32px;
+    color: white
+}
+
+.box-chat .box-head .name {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.box-chat .body {
+    padding: 10px;
+}
+
+.box-chat .body .container {
+    background: #F1F1F1;
+    margin-bottom: 10px;
+    max-width: 200px;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.box-chat .body .me .container {
+    margin-left: auto;
+    background: #FE5DA3;
+    color: #fff;
+}
+
+.box-chat .foot {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.box-chat .foot .form input {
+    width: 190px;
+    height: 25px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 0 10px;
+    outline: none;
+}
+
+.box-chat .foot .form button {
+    border-radius: 15px;
+    border: 1px solid #FE5DA3;
+    background: #FE5DA3;
+    height: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+/*Câu 2 */
+
+.box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.box img {
+    height: 100px;
+    width: auto;
+}
+
+.box .name {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.box-rec {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.box-rec img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
+
+.box-rec .name {
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.box-rec .price {
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-left:5px;
+    color: green;
+}
+
+.box-rec .del-price {
+    padding-top: 5px;
+    padding-left: 5px;
+    color: red;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+.box-rec .VAT {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    color: purple;
+    font-weight: 700;
+    font-size: 18px;
+}
